@@ -1,5 +1,5 @@
 ## 1. Descrição do funcionamento e uso
-O **Vital Charger IoT** é um protótipo de monitoramento remoto de sinais vitais baseado em ESP32. O potenciômetro simula o sinal cardíaco (ECG) para gerar BPM e o sensor DHT22 mede temperatura corporal e umidade ambiente ao redor do paciente. O firmware compara as leituras com limiares configuráveis e publica telemetria e alertas via MQTT sobre TCP/IP. O LED vermelho e o buzzer também sinalizam localmente quando há anomalias. Para reproduzir, abra o projeto em [Wokwi](https://wokwi.com/), carregue `diagram.json` e `sketch.io`, conecte-se à rede padrão `Wokwi-GUEST` e inicie a simulação.
+O **VitalGuard IoT** é um protótipo de monitoramento remoto de sinais vitais baseado em ESP32. O potenciômetro simula o sinal cardíaco (ECG) para gerar BPM e o sensor DHT22 mede temperatura corporal e umidade ambiente ao redor do paciente. O firmware compara as leituras com limiares configuráveis e publica telemetria e alertas via MQTT sobre TCP/IP. O LED vermelho e o buzzer também sinalizam localmente quando há anomalias. Para reproduzir, abra o projeto em [Wokwi](https://wokwi.com/), carregue `diagram.json` e `sketch.io`, conecte-se à rede padrão `Wokwi-GUEST` e inicie a simulação.
 
 ## 2. Software e documentação do código
 - Arquivo principal: `sketch.io` (Arduino/ESP32).
