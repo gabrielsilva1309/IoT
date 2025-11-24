@@ -1,4 +1,4 @@
-## Documentação do Código (Vital Charger IoT)
+## Documentação do Código (VitalGuard IoT)
 
 ### 1. Visão geral
 O firmware roda em um ESP32 virtual no Wokwi e lê dois sensores:
