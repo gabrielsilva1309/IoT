@@ -1,6 +1,6 @@
 ## Interfaces, Protocolos e Comunicação
 
-Este documento explica, em linguagem simples, como o Vital Charger IoT conversa
+Este documento explica, em linguagem simples, como o VitalGuard IoT conversa
 com o mundo externo e como você pode acompanhar os dados.
 
 ### 1. Camada física: Wi-Fi
